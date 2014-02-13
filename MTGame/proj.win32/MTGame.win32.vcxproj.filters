@@ -1,0 +1,154 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="source">
+      <UniqueIdentifier>{fda7627d-11be-4884-80d1-96fcab7e69ac}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;def;odl;idl;hpj;bat;asm</Extensions>
+    </Filter>
+    <Filter Include="include">
+      <UniqueIdentifier>{b5e2f50f-747a-4938-b938-f2548aee8854}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc</Extensions>
+    </Filter>
+    <Filter Include="resource">
+      <UniqueIdentifier>{274f7558-87fd-4804-9450-05075fb2203e}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;jpg;jpeg;jpe;png;manifest</Extensions>
+    </Filter>
+    <Filter Include="source\game">
+      <UniqueIdentifier>{a1a5415f-6de5-4739-9eed-99b8763ec7f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\util">
+      <UniqueIdentifier>{3f2fc352-4659-408b-b361-daae44b76175}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\scene">
+      <UniqueIdentifier>{5b45e7bb-5010-4791-8a5e-def8898181da}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="source\layer">
+      <UniqueIdentifier>{4c1a9cec-d50d-4924-b0f1-b4fd2305955c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\layer">
+      <UniqueIdentifier>{71a5ff90-64fa-4053-a877-c3584f62c1bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\scene">
+      <UniqueIdentifier>{040c3d88-35e4-459e-ab06-42bcf017f686}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\game">
+      <UniqueIdentifier>{eb9ef400-e8cd-4780-9a0c-dd62c8942b88}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="include\util">
+      <UniqueIdentifier>{905d0c28-e95d-498d-a9d1-b116cd3f602d}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\MTGame.ico">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseSelected.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\CloseNormal.png">
+      <Filter>resource</Filter>
+    </None>
+    <None Include="..\Resources\HelloWorld.png">
+      <Filter>resource</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="MTGame.rc">
+      <Filter>resource</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameConstants.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MTGame.h">
+      <Filter>include</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\GameLayer.h">
+      <Filter>include\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\layer\ControlLayer.h">
+      <Filter>include\layer</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\GameScene.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Enemy.h">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\GameMap.h">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Hero.h">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\NPC.h">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\game\Teleport.h">
+      <Filter>include\game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\AnimationManager.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\Global.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\util\Singleton.h">
+      <Filter>include\util</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\scene\HelloWorldScene.h">
+      <Filter>include\scene</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>source</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Enemy.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\GameMap.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Hero.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\NPC.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\game\Teleport.cpp">
+      <Filter>source\game</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util\AnimationManager.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\util\Global.cpp">
+      <Filter>source\util</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\GameScene.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\ControlLayer.cpp">
+      <Filter>source\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\layer\GameLayer.cpp">
+      <Filter>source\layer</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\scene\HelloWorldScene.cpp">
+      <Filter>source\scene</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
